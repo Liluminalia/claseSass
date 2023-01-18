@@ -3,17 +3,17 @@
     sass es una extension, que permite escribir hojas de estilo con las caracteristicas propias de un lenguaje
     de programacion, permitiendo utilizar:
 
-### INHERITANCE/EXTEND
+###### INHERITANCE/EXTEND
 
-### VARIABLES
+###### VARIABLES
 
-### NESTING
+###### NESTING
 
-### PARTIAL
+###### PARTIAL
 
-### MODULES
+###### MODULES
 
-### MIXINS
+###### MIXINS
 
     funciona como un compilador, es decir, lo que escribimos en sass lo "traduce" a lenguaje css.
 
@@ -38,17 +38,14 @@
 
     1º insertamos el comando en la terminal
 
-
-    	``` npm i -d sass ```
-
+`npm i -d sass`
 
     2º creamos las carpetas css y sass
 
 
     3º Añadimos el script en package.json para que identifique las carpetas y se quede watching
 
-
-    	``` "sass":"sass sass:css --watch" ```
+`"sass":"sass sass:css --watch"`
 
     4º lanzamos el comando en la terminal que lanza el script
 
