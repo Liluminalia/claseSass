@@ -1,7 +1,6 @@
 # LEARNING SASS
 
-    sass es una extension, que permite escribir hojas de estilo con las caracteristicas propias de un lenguaje
-    de programacion, permitiendo utilizar:
+    sass es un metalenguaje de programacion, que permite escribir hojas de estilo con las caracteristicas propias de un lenguaje de programacion, funciona como un compilador, es decir, lo que escribimos en sass lo "traduce" a lenguaje css, permitiendo utilizar:
 
 ###### INHERITANCE/EXTEND
 
@@ -16,8 +15,6 @@
 ###### MIXINS
 
 ###### CALC
-
-    funciona como un compilador, es decir, lo que escribimos en sass lo "traduce" a lenguaje css.
 
 ## Ventajas respecto al css:
 
@@ -63,9 +60,14 @@
 
                 .title1{
                   color: $primary-color;
+                  display:flex;
+                  justify-content:center;
                 }
                 .secondary-title{
                   color: $primary-color;
+                  font-size:2rem;
+                  padding:1rem;
+                  font-family:verdana;
                 }
                 .footer{
                   color: $primary-color;
