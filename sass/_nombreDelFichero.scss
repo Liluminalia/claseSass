@@ -1,0 +1,12 @@
+@mixin functionName($variableName: #7092be, $variable2Name: #3f48cc) {
+  text-transform: uppercase;
+  border: 1px solid $variableName;
+  background: $variable2Name;
+}
+.paragraph2 {
+  @include functionName();
+}
+
+.paragraph3 {
+  @include functionName($variable2Name: lightgoldenrodyellow);
+}

@@ -1,0 +1,51 @@
+@use "nombreDelFichero";
+
+* {
+  box-sizing: border-box;
+}
+
+$primary-color: orange;
+
+.title1 {
+  color: $primary-color;
+  display: flex;
+  justify-content: center;
+}
+.secondary-title {
+  color: $primary-color;
+  font-size: 2rem;
+  padding: 1rem;
+  font-family: verdana;
+}
+.footer {
+  color: $primary-color;
+}
+
+%paragraph-base {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.paragraph1 {
+  @extend %paragraph-base;
+  text-decoration: underline;
+}
+.paragraph2 {
+  @extend %paragraph-base;
+  text-decoration: overline;
+}
+
+.article1 {
+  .secondary-title {
+    font-size: x-large;
+  }
+  .paragraph1 {
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
+section {
+  width: 400px + 100px;
+}
