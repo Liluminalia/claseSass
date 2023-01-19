@@ -1,5 +1,7 @@
 # LEARNING SASS
-
+"ojo! si te clonas este repo recuerda,
+  lo primero que tenemos que hacer es:"
+```npm i```
 sass es un metalenguaje de programacion, que permite escribir hojas de estilo con las caracteristicas propias de un lenguaje de programacion, funciona como un compilador, es decir, lo que escribimos en sass lo "traduce" a lenguaje css, permitiendo utilizar:
 
 ###### INHERITANCE/EXTEND
