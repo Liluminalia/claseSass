@@ -105,7 +105,8 @@ sass es un metalenguaje de programacion, que permite escribir hojas de estilo co
 
       ejemplo:
 
-      si queremos dar algun formato SOLO al titulo del primer article o a un span que esta dentro del parrafo del articulo1
+      si queremos dar algun formato SOLO al titulo del primer article o a un span que
+      esta dentro del parrafo del articulo-1
 
           .article1{
             .secondary-title{
