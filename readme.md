@@ -90,11 +90,11 @@ sass es un metalenguaje de programacion, que permite escribir hojas de estilo co
                 }
 
                 .paragraph1 {
-                  @extend %paragraph-base
+                  @extend %paragraph-base;
                     text-decoration: underline;
                 }
                 .paragraph2 {
-                  @extend %paragraph-base
+                  @extend %paragraph-base;
                     text-decoration: overline;
                 }
 

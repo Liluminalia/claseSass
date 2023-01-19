@@ -1,0 +1,59 @@
+.paragraph2 {
+  text-transform: uppercase;
+  border: 1px solid #7092be;
+  background: #3f48cc;
+}
+
+.paragraph3 {
+  text-transform: uppercase;
+  border: 1px solid #7092be;
+  background: lightgoldenrodyellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title1 {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-title {
+  color: orange;
+  font-size: 2rem;
+  padding: 1rem;
+  font-family: verdana;
+}
+
+.footer {
+  color: orange;
+}
+
+.paragraph2, .paragraph1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.paragraph1 {
+  text-decoration: underline;
+}
+
+.paragraph2 {
+  text-decoration: overline;
+}
+
+.article1 .secondary-title {
+  font-size: x-large;
+}
+.article1 .paragraph1 span {
+  text-transform: uppercase;
+}
+
+section {
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
