@@ -15,6 +15,8 @@
 
 ###### MIXINS
 
+###### CALC
+
     funciona como un compilador, es decir, lo que escribimos en sass lo "traduce" a lenguaje css.
 
 ## Ventajas respecto al css:
@@ -164,3 +166,13 @@
             en el fichero principal, recomendablemente al principio, llamamos al modulo con el @use
 
             @use 'nombreDelFichero';
+
+## CALC
+
+      - "+, -, *, /"
+
+      podemos utilizar operaciones matematicas
+
+      section{
+                widht: 400px + 100px
+                }
